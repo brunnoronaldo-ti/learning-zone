@@ -1,77 +1,48 @@
-Algoritmo "simples calculadora-algoritmo"
-//um simples programa
-Var
-   a, b : inteiro
-   total : real
-   conta : caractere
-   saida : caractere
-
-Inicio
-   escreval("para fechar o programa digite: SAIR")
-   escreval()
-   escreval("primeiramente insira os números e após insira o tipo da conta")
-   escreval()
-   
-   enquanto saida <> "s" faca
-      escreval("digite o primeiro número: ")
-      leia(a)
-      escreval("digite o segundo número: ")
-      leia(b)
-      escreval("escolha o tipo de conta:")
-      
-      
-         escreval("!!insira apenas números inteiros!!")
-     
-      
-      escreval("soma")
-      escreval("subtração")
-      escreval("multiplicação")
-      escreval("divisão")
-      escreval()
-      leia(conta)
-      escreval()
-      
-      se conta = "soma" entao
-        total <- a + b
-        escreval(a, " +", b, " =", total)
-      senao
-         se conta = "subtração" entao
-            total <- a - b
-            escreval(a, " -", b, " =", total)
-         senao
-            se conta = "multiplicação" entao
-               total <- a * b
-               escreval(a, " x", b, " =", total)
-            senao
-               se conta = "divisão" entao
-                  total <- a / b
-                  escreval(a, " %", b, " =", total)
-               senao
-                  escreval("")
-               fimse
-            fimse
-         fimse
-      fimse
-      
-      escreval("deseja sair? (s/n)")
-      
-      leia(saida)
-         se saida = "s" entao
-            escreval()
-            escreval("saindo...")
-         senao
-            se saida = "n" entao
-               escreval()
-               escreval("retornando...")
-               escreval()
-            senao
-               escreval("digite apenas S ou N")
-               leia(saida)
-            fimse
-         fimse
-      
-   fimenquanto
-   
-
-
-Fimalgoritmo
+  programa
+{
+    funcao inicio()
+    {
+        real numero1, numero2, resultado
+        cadeia operacao
+        
+        escreva("Digite o primeiro número: ")
+        leia(numero1)
+        
+        escreva("Digite a operação (+, -, *, /): ")
+        leia(operacao)
+        
+        escreva("Digite o segundo número: ")
+        leia(numero2)
+        
+        escolha (operacao)
+        {
+            caso "+":
+                resultado = numero1 + numero2
+                escreva("Resultado: ", resultado, "\n")
+                pare
+            
+            caso "-":
+                resultado = numero1 - numero2
+                escreva("Resultado: ", resultado, "\n")
+                pare
+            
+            caso "*":
+                resultado = numero1 * numero2
+                escreva("Resultado: ", resultado, "\n")
+                pare
+            
+            caso "/":
+                se (numero2 != 0) {
+                    resultado = numero1 / numero2
+                    escreva("Resultado: ", resultado, "\n")
+                } senao {
+                    escreva("Erro: Divisão por zero!\n")
+                }
+                pare
+            
+            caso contrario:
+                escreva("Operação inválida!\n")
+        }
+    }
+}
+               
