@@ -9,24 +9,24 @@ Var
 Inicio
    escreval("para fechar o programa digite: SAIR")
    escreval()
-   escreval("primeiramente insira os números e após insira o tipo da conta")
+   escreval("primeiramente insira os nÃºmeros e apÃ³s insira o tipo da conta")
    escreval()
    
    enquanto saida <> "s" faca
-      escreval("digite o primeiro número: ")
+      escreval("digite o primeiro nÃºmero: ")
       leia(a)
-      escreval("digite o segundo número: ")
+      escreval("digite o segundo nÃºmero: ")
       leia(b)
       escreval("escolha o tipo de conta:")
       
       
-         escreval("!!insira apenas números inteiros!!")
+         escreval("!!insira apenas nÃºmeros inteiros!!")
      
       
       escreval("soma")
-      escreval("subtração")
-      escreval("multiplicação")
-      escreval("divisão")
+      escreval("subtraÃ§Ã£o")
+      escreval("multiplicaÃ§Ã£o")
+      escreval("divisÃ£o")
       escreval()
       leia(conta)
       escreval()
@@ -35,15 +35,15 @@ Inicio
         total <- a + b
         escreval(a, " +", b, " =", total)
       senao
-         se conta = "subtração" entao
+         se conta = "subtraÃ§Ã£o" entao
             total <- a - b
             escreval(a, " -", b, " =", total)
          senao
-            se conta = "multiplicação" entao
+            se conta = "multiplicaÃ§Ã£o" entao
                total <- a * b
                escreval(a, " x", b, " =", total)
             senao
-               se conta = "divisão" entao
+               se conta = "divisÃ£o" entao
                   total <- a / b
                   escreval(a, " %", b, " =", total)
                senao
@@ -72,5 +72,6 @@ Inicio
       
    fimenquanto
    
+
 
 Fimalgoritmo
