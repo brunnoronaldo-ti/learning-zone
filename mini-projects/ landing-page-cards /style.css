@@ -1,0 +1,79 @@
+body {
+    font-family:sans-serif;
+    background: linear-gradient(#05a2e6, #022f89);
+    margin: 150px;
+    padding: 50px;
+}
+
+.img {
+    width: 20%; /* Mantém a responsividade */
+    height: 20%;
+    border-radius: 100px; /* Bordas arredondadas */
+    margin-top: 50px;
+}
+
+.card-azul {
+    background-color: #3498db;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card-vermelho {
+    background-color: #fb4141;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card-verde {
+    background-color: rgb(87, 162, 13);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.info {
+    color: white;
+    padding: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+
+.btn-ver-mais {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #05a2e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.btn-ver-mais:hover {
+    background-color: #0244c7;
+}
+
+.rodapé {
+    text-align: center;
+    padding: 20px;
+    background-color: #022f89;
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.github {
+    color: white;
+    text-decoration: light;
+    font-weight: bold;
+}
+
+.github:hover {
+    color: #05a2e6;
+}
