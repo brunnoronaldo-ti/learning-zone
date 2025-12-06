@@ -18,8 +18,8 @@ A[🎯 Portugol - Fundamentos de Lógica] --> B[🔍 Sintaxe e Projetos simples]
 <h2 align="center"> 📦O QUE VOCÊ VAI ENCONTRAR AQUI </h2>
 
 <ul align="left"> 
-   <li> 🧠 Exercícios e prática de lógicas  </li>   
-   <li> 🐍 Estudos de python </li>
+   <li> 🧠 Exercícios e prática de lógicas (portugol)  </li>   
+   <li> 🐍 python </li>
    <li> 🌐 HTML e CSS </li>
    <li> 📝 Testes, anotações e pequenos projetos </li>
    <li> 📈 Evolução constante como dev </li>
