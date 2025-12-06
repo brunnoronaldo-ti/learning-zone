@@ -1,0 +1,46 @@
+body {
+    font-family:sans-serif;
+     background: linear-gradient(#05a2e6, #022f89);
+    margin: 150px;
+    padding: 50px;
+}
+
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #05a2e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.btn-voltar:hover {
+    background-color: #0244c7;
+}
+
+.detalhes {
+    color: white;
+    padding: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+.rodapé {
+    text-align: center;
+    padding: 20px;
+    background-color: #022f89;
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.github {
+    color: white;
+    text-decoration: light;
+    font-weight: bold;
+}
+
+.github:hover {
+    color: #05a2e6;
+}
