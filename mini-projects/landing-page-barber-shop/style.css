@@ -1,0 +1,148 @@
+/* Estilos para o container principal */
+.container-barbearia {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden; /* Para conter os floats */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background: linear-gradient(yellow, #000000);
+    color: rgb(239, 204, 10);
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 5em; /* Tamanho do título principal */
+    font-family: 'Brush Script MT', cursive; /* Fonte estilizada */
+}
+header p {
+    margin: 5px 0 0 0;
+    font-size: 1.2em;
+}
+
+/* Estilos para a seção de promoção */
+.promoção {
+    background-color: yellow;
+    color: black;
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    font-size: 1.5em; /* Tamanho da fonte maior */
+    font-weight: bold; /* Texto em negrito */
+    margin: 20px 0; /* Espaçamento acima e abaixo da seção de promoção */
+    border: 5px solid white; /* Borda branca */
+    border-radius: 100px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para dar destaque */
+}
+
+/* estilos para o menu de navegação */
+.menu a{ 
+    background-color: yellow;
+    padding: 5px 0; /* Espaçamento interno dos links */
+    border: 0px solid yellow; /* Borda inicial transparente */
+    box-sizing: border-box; /* Inclui a borda no tamanho total do link */
+    display: inline-block; /* Permite definir largura e altura */
+    text-align: center; /* Centraliza os itens do menu */
+    color: white; /* Cor do texto dos links */
+    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave para as mudanças de cor */
+    top: auto; /* Mantém o menu na parte superior da página */
+    width: 100%; /* Faz o menu ocupar toda a largura da tela */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 10px; /* Espaçamento entre os links */
+    font-size: 25px; /* Tamanho da fonte dos links */
+    line-height: 40px; /* Altura da linha para melhor espaçamento */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); /* Sombra leve para dar profundidade e detalhes */
+    font-style: italic; /* Texto em itálico */
+    text-decoration: underline; /* Sublinhado nos links, underline */
+    scroll-behavior: smooth; /* Adiciona um efeito suave ao rolar para o topo */
+}
+
+.menu a:hover {
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow; 
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.7);
+
+}
+
+/* estilos para a linha de navegação */
+.navegação {
+    border: 2px solid yellow; 
+    margin: 0px 0; /* Espaçamento acima e abaixo da linha */
+    width: 100%; /* Faz a linha ocupar toda a largura da tela */
+    box-sizing: border-box; /* Inclui a borda no tamanho total da linha */
+}
+
+.banner {
+    height: 500px;
+    display: flex; /* Usa Flexbox para centralizar o conteúdo */
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */  
+    font-size: large;
+    font-family: '𝙎𝙖𝙣𝙨-𝙎𝙚𝙧𝙞𝙛 𝘽𝙤𝙡𝙙 𝙄𝙩𝙖𝙡𝙞𝙘', cursive; /* Fonte estilizada */
+    color: white; 
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Sombra no texto para melhor legibilidade */
+    background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.5), rgba(0, 0, 1, 1.0)), url('img/federico-tonini-tdDPj4Jpwu4-unsplash.jpg'); /* Imagem de fundo do banner */
+    background-size: cover; /* Cobre toda a área do banner */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+}
+
+/* estilos para a seção de introdução */
+#introdução {
+    background-color: yellow; /* Cor de fundo amarela */
+    padding: 15px; /* Espaçamento interno */
+    margin-top: 50px; /* Espaçamento acima da seção de introdução */
+    margin-bottom: 20px; /* Espaçamento abaixo da seção de introdução */
+    color: white; /* Cor do texto */
+    text-align: justify; /* Justifica o texto */
+    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+}
+
+.exibicao-cortes {
+    border: 2px solid white; 
+    margin: 20px 0; /* Espaçamento acima e abaixo da linha */
+    width: 100%; /* Faz a linha ocupar toda a largura da tela */
+    border-radius: 50px; /* Bordas arredondadas */ 
+}
+
+.card-corte {
+    background-color: yellow; /* Cor de fundo amarela */
+    color: black; /* Cor do texto */
+    padding: 15px; /* Espaçamento interno */
+    margin: 20px 0; /* Espaçamento acima e abaixo do cartão */
+    border: 2px solid white; /* Borda branca */
+    border-top-left-radius: 100px; 
+    border-bottom-left-radius: 100px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+    width: 100%; /* Faz o cartão ocupar toda a largura disponível */
+}
+
+/* estilos para o body */
+body {
+    background-color: black; 
+    margin: 0;
+    padding: 0;
+}
+
+#sobre-nos {
+    background-color: yellow; /* Cor de fundo amarela */
+    padding: 15px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento acima da seção sobre nós */
+    margin-bottom: 20px; /* Espaçamento abaixo da seção sobre nós */
+    color: black; /* Cor do texto */
+    text-align: justify; /* Justifica o texto */
+    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+}
+
+/* estilos para o footer */
+footer {
+    background-color: yellow;
+    color: rgb(0, 0, 0); /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento acima do footer */
+
+}
