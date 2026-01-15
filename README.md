@@ -1,42 +1,88 @@
-<h1 align="center"> -- REPOSITÓRIO DE ESTUDOS -- <br> -- EXERCÍCIOS, TESTES E MINI PROJETOS -- </h1>
-
----
-<h2 align="center"> 📦O QUE VOCÊ VAI ENCONTRAR AQUI📦 </h2>
-
-<ul align="left"> 
-   <li> 🧠 Exercícios e prática de lógicas (portugol)  </li>   
-   <li> 🐍 python </li>
-   <li> 🌐 HTML e CSS </li>
-   <li> 📝 Testes, anotações e pequenos projetos </li>
-   <li> 📈 Evolução constante como dev </li>
-</ul>
-
----
-
-<h2 align="center"> 📁PASTAS📁 </h2>
-
-<ul  align="left">
-  <li> 📦/estudos-python/ -> exercícios, testes e desafios </li>
-  <li> 📦/logica-algoritmos/ -> primeiros códigos utilizando portugol </li>
-  <li> 📦/mini-projects/ -> pequenos projetos diversificados </li>
-</ul>
-
----
-
 <section>
-  
-  <h2 align="center"> 🎯objetivo do repositório🎯 </h2>
-  <ul>
-    <li> servir como referência </li>
-    <li> praticar lógica </li>
-    <li> testar ideias </li> 
-    <Li> acompanhar e registrar a minha evolução </Li>
-  </ul>
-  
-  <h3 align="center"> 🔎NAVEGAÇÃO🔎 <br> clique nas pastas para acessar os conteúdos, cada pasta possui seu próprio README explicando o que contém </h3>
-  
+   
+   <h1 align="center"> <strong>(ENGLISH)</strong> <br>-- STUDY REPOSITORY -- <br> -- EXERCISES, TESTS AND MINI-PROJECTS -- </h1>
+   
+   ---
+   <h2 align="center"> 📦WHAT YOU WILL FIND HERE📦 </h2>
+   
+   <ul align="left"> 
+      <li> 🧠 Exercises and lógic practice (portugol)  </li>   
+      <li> 🌐 javascript </li>
+      <li> 🐍 python </li>
+      <li> 🌐 HTML and CSS </li>
+      <li> 📝 Tests, notes and small projects </li>
+      <li> 📈 Constant evolution as a developer </li>
+   </ul>
+   
+   ---
+   
+   <h2 align="center"> 📁FOLDERS📁 </h2>
+   
+   <ul  align="left">
+     <li> 📦/estudos-python/ -> exercises, tests and chalenges </li>
+     <li>📦/estudos-JS/ -> exercises and study from JS </li>
+     <li> 📦/logica-algoritmos/ -> my fists codes using 'portugol' </li>
+     <li> 📦/mini-projects/ -> small projects diversified </li>
+   </ul>
+   
+   ---
+   
+     
+   <h2 align="center"> 🎯REPOSITORY OJECTIVE🎯 </h2>
+     <ul>
+        <li> To serve as a reference</li>
+        <li>To practice logic</li>
+        <li>To test ideas</li>
+        <li>To track and record my progress</li>
+     </ul>
+     
+   <h3 align="center"> 🔎NAVIGATION🔎 <br> Click on the folders to access the contents; each folder has its own README explaining what it contains. </h3>
+     
+   
+   ---
 </section>
 
----
+<section>
+   <h1 align="center"> <strong>(PORTUGUÊS)</strong> <br>-- REPOSITÓRIO DE ESTUDOS -- <br> -- EXERCÍCIOS, TESTES E MINI PROJETOS -- </h1>
+   
+   ---
+   <h2 align="center"> 📦O QUE VOCÊ VAI ENCONTRAR AQUI📦 </h2>
+   
+   <ul align="left"> 
+      <li> 🧠 Exercícios e prática de lógicas (portugol)  </li>   
+      <li> 🐍 python </li>
+      <li> 🌐 HTML e CSS </li>
+      <li> 📝 Testes, anotações e pequenos projetos </li>
+      <li> 📈 Evolução constante como dev </li>
+   </ul>
+   
+   ---
+   
+   <h2 align="center"> 📁PASTAS📁 </h2>
+   
+   <ul  align="left">
+     <li> 📦/estudos-python/ -> exercícios, testes e desafios </li>
+     <li> 📦/logica-algoritmos/ -> primeiros códigos utilizando portugol </li>
+     <li> 📦/mini-projects/ -> pequenos projetos diversificados </li>
+   </ul>
+   
+   ---
+   
+     
+   <h2 align="center"> 🎯objetivo do repositório🎯 </h2>
+     <ul>
+       <li> servir como referência </li>
+       <li> praticar lógica </li>
+       <li> testar ideias </li> 
+       <Li> acompanhar e registrar a minha evolução </Li>
+     </ul>
+     
+   <h3 align="center"> 🔎NAVEGAÇÃO🔎 <br> clique nas pastas para acessar os conteúdos; cada pasta possui seu próprio README explicando o que contém </h3>
+     
+   
+   
+   ---
+   
+   <h3 align="center">  💻Esse repositório é meu campo de treino — onde cada linha de código conta.💻 </h3>
 
-<h3 align="center">  💻Esse repositório é meu campo de treino — onde cada linha de código conta.💻 </h3>
+</section>
