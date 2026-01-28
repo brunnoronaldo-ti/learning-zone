@@ -28,7 +28,7 @@
    ---
    
      
-   <h2 align="center"> 🎯REPOSITORY OJECTIVE🎯 </h2>
+   <h2 align="center"> 🎯REPOSITORY OBJECTIVE🎯 </h2>
      <ul>
         <li> To serve as a reference</li>
         <li>To practice logic</li>
