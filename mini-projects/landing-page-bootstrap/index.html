@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template exemplo - bootstrap</title>
+
+    <!-- 1. CDN DO BOOTSTRAP (O "Cérebro" do CSS) -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    
+    <style>
+        /* CSS Puro: Use aqui para ajustes finos que o Bootstrap não faz sozinho */
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR: Menu que vira "hambúrguer" no celular -->
+    <!-- 'navbar-expand-lg' define que o menu abre no desktop. 'bg-white' é fundo branco -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">NOME DO CLIENTE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto"> <!-- 'ms-auto' empurra o menu para a direita -->
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION: O banner principal do site -->
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Soluções Incríveis para Você</h1>
+            <p class="lead text-muted">Texto de apoio para convencer o cliente a contratar o serviço.</p>
+            <a href="#contato" class="btn btn-primary btn-lg mt-3">Pedir Orçamento</a>
+        </div>
+    </header>
+
+    <!-- SERVIÇOS: Usando o sistema de GRID (Colunas) -->
+    <section id="servicos" class="container my-5">
+        <h2 class="text-center mb-5">Nossos Serviços</h2>
+        <div class="row g-4"> <!-- 'row' cria a linha, 'g-4' dá espaçamento entre os cards -->
+            
+            <!-- Card 1: 'col-md-4' significa que em telas médias/grandes ele ocupa 4 de 12 colunas (3 cards por linha) -->
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm text-center p-3">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Serviço A</h5>
+                        <p class="card-text text-muted">Descrição rápida do que o cliente faz nesta área.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm text-center p-3">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Serviço B</h5>
+                        <p class="card-text text-muted">Mais uma funcionalidade ou produto legal aqui.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm text-center p-3">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Serviço C</h5>
+                        <p class="card-text text-muted">Outro serviço para fechar a linha de 3 colunas.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RODAPÉ SIMPLES -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <small>&copy; 2024 Nome do Cliente - Todos os direitos reservados.</small>
+        </div>
+    </footer>
+
+    <!-- 2. JS DO BOOTSTRAP (O "Cérebro" das interações) -->
+    <!-- Sem isso, o menu hamburguer e os modais não funcionam! -->
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
